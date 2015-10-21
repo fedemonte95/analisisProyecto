@@ -1,0 +1,262 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'electron-prebuilt',
+1 verbose cli   '-g' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'electron-prebuilt', null ]
+5 verbose cache add name=undefined spec="electron-prebuilt" args=["electron-prebuilt",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'electron-prebuilt',
+6 verbose parsed url   path: 'electron-prebuilt',
+6 verbose parsed url   href: 'electron-prebuilt' }
+7 silly lockFile 37f7be3f-electron-prebuilt electron-prebuilt
+8 verbose lock electron-prebuilt /home/federico/.npm/37f7be3f-electron-prebuilt.lock
+9 silly lockFile 37f7be3f-electron-prebuilt electron-prebuilt
+10 silly lockFile 37f7be3f-electron-prebuilt electron-prebuilt
+11 verbose addNamed [ 'electron-prebuilt', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 092fe7a3-electron-prebuilt electron-prebuilt@
+14 verbose lock electron-prebuilt@ /home/federico/.npm/092fe7a3-electron-prebuilt.lock
+15 silly addNameRange { name: 'electron-prebuilt', range: '*', hasData: false }
+16 verbose url raw electron-prebuilt
+17 verbose url resolving [ 'https://registry.npmjs.org/', './electron-prebuilt' ]
+18 verbose url resolved https://registry.npmjs.org/electron-prebuilt
+19 info trying registry request attempt 1 at 22:41:17
+20 http GET https://registry.npmjs.org/electron-prebuilt
+21 http 200 https://registry.npmjs.org/electron-prebuilt
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"D8V6X3HLEV6PI8O2U08KBS9PA"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '77280',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Tue, 20 Oct 2015 04:41:30 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1445316090.440112,VS0,VE20',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'electron-prebuilt', range: '*', hasData: true }
+24 silly addNameRange versions [ 'electron-prebuilt',
+24 silly addNameRange   [ '0.24.0',
+24 silly addNameRange     '0.25.0',
+24 silly addNameRange     '0.25.1',
+24 silly addNameRange     '0.25.1-1',
+24 silly addNameRange     '0.25.2',
+24 silly addNameRange     '0.25.2-1',
+24 silly addNameRange     '0.25.3',
+24 silly addNameRange     '0.25.3-1',
+24 silly addNameRange     '0.25.3-2',
+24 silly addNameRange     '0.26.0',
+24 silly addNameRange     '0.26.1',
+24 silly addNameRange     '0.27.0',
+24 silly addNameRange     '0.27.1',
+24 silly addNameRange     '0.27.2',
+24 silly addNameRange     '0.27.3',
+24 silly addNameRange     '0.28.0',
+24 silly addNameRange     '0.28.1',
+24 silly addNameRange     '0.28.2',
+24 silly addNameRange     '0.28.3',
+24 silly addNameRange     '0.29.0',
+24 silly addNameRange     '0.29.1',
+24 silly addNameRange     '0.29.2',
+24 silly addNameRange     '0.30.0',
+24 silly addNameRange     '0.30.1',
+24 silly addNameRange     '0.30.2',
+24 silly addNameRange     '0.30.3',
+24 silly addNameRange     '0.30.4',
+24 silly addNameRange     '0.30.5',
+24 silly addNameRange     '0.31.0',
+24 silly addNameRange     '0.30.6',
+24 silly addNameRange     '0.31.1',
+24 silly addNameRange     '0.31.2',
+24 silly addNameRange     '0.32.0',
+24 silly addNameRange     '0.32.1',
+24 silly addNameRange     '0.32.2',
+24 silly addNameRange     '0.32.3',
+24 silly addNameRange     '0.33.0',
+24 silly addNameRange     '0.33.1',
+24 silly addNameRange     '0.30.7',
+24 silly addNameRange     '0.33.2',
+24 silly addNameRange     '0.30.8',
+24 silly addNameRange     '0.33.3',
+24 silly addNameRange     '0.33.4',
+24 silly addNameRange     '0.33.5',
+24 silly addNameRange     '0.33.6',
+24 silly addNameRange     '0.33.7',
+24 silly addNameRange     '0.33.8',
+24 silly addNameRange     '0.33.9',
+24 silly addNameRange     '0.34.0' ] ]
+25 verbose addNamed [ 'electron-prebuilt', '0.34.0' ]
+26 verbose addNamed [ '0.34.0', '0.34.0' ]
+27 silly lockFile 242a446a-electron-prebuilt-0-34-0 electron-prebuilt@0.34.0
+28 verbose lock electron-prebuilt@0.34.0 /home/federico/.npm/242a446a-electron-prebuilt-0-34-0.lock
+29 silly lockFile 9ebb936b-ilt-electron-prebuilt-0-34-0-tgz https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.34.0.tgz
+30 verbose lock https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.34.0.tgz /home/federico/.npm/9ebb936b-ilt-electron-prebuilt-0-34-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.34.0.tgz',
+31 verbose addRemoteTarball   '27877be6af32c4cb1be1312ce1d7af579cf7a672' ]
+32 info retry fetch attempt 1 at 22:41:18
+33 verbose fetch to= /home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/tmp.tgz
+34 http GET https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.34.0.tgz
+35 http 200 https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.34.0.tgz
+36 verbose tar unpack /home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/tmp.tgz
+37 silly lockFile 4d4c2ab5-8889-0-28876871801912785-package tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/package
+38 verbose lock tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/package /home/federico/.npm/4d4c2ab5-8889-0-28876871801912785-package.lock
+39 silly lockFile befdc32b-8889-0-28876871801912785-tmp-tgz tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/tmp.tgz
+40 verbose lock tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/tmp.tgz /home/federico/.npm/befdc32b-8889-0-28876871801912785-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry
+43 silly gunzTarPerm modified mode [ '', 509, 493 ]
+44 silly gunzTarPerm extractEntry .gitignore
+45 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+48 silly gunzTarPerm extractEntry .travis.yml
+49 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+50 silly gunzTarPerm extractEntry CONTRIBUTING.md
+51 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 420 ]
+52 silly gunzTarPerm extractEntry LICENSE
+53 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+56 silly gunzTarPerm extractEntry cli.js
+57 silly gunzTarPerm modified mode [ 'cli.js', 509, 493 ]
+58 silly gunzTarPerm extractEntry index.js
+59 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+60 silly gunzTarPerm extractEntry install.js
+61 silly gunzTarPerm modified mode [ 'install.js', 509, 493 ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+64 silly gunzTarPerm extractEntry test/
+65 silly gunzTarPerm modified mode [ 'test/', 509, 493 ]
+66 silly gunzTarPerm extractEntry test/index.js
+67 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+68 silly lockFile 4d4c2ab5-8889-0-28876871801912785-package tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/package
+69 silly lockFile 4d4c2ab5-8889-0-28876871801912785-package tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/package
+70 silly lockFile befdc32b-8889-0-28876871801912785-tmp-tgz tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/tmp.tgz
+71 silly lockFile befdc32b-8889-0-28876871801912785-tmp-tgz tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/tmp.tgz
+72 verbose tar pack [ '/home/federico/.npm/electron-prebuilt/0.34.0/package.tgz',
+72 verbose tar pack   '/home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/package' ]
+73 verbose tarball /home/federico/.npm/electron-prebuilt/0.34.0/package.tgz
+74 verbose folder /home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/package
+75 silly lockFile 4d4c2ab5-8889-0-28876871801912785-package tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/package
+76 verbose lock tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/package /home/federico/.npm/4d4c2ab5-8889-0-28876871801912785-package.lock
+77 silly lockFile 078f9075-tron-prebuilt-0-34-0-package-tgz tar:///home/federico/.npm/electron-prebuilt/0.34.0/package.tgz
+78 verbose lock tar:///home/federico/.npm/electron-prebuilt/0.34.0/package.tgz /home/federico/.npm/078f9075-tron-prebuilt-0-34-0-package-tgz.lock
+79 silly lockFile 4d4c2ab5-8889-0-28876871801912785-package tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/package
+80 silly lockFile 4d4c2ab5-8889-0-28876871801912785-package tar:///home/federico/tmp/npm-6096-fhvDya0X/1445316078889-0.28876871801912785/package
+81 silly lockFile 078f9075-tron-prebuilt-0-34-0-package-tgz tar:///home/federico/.npm/electron-prebuilt/0.34.0/package.tgz
+82 silly lockFile 078f9075-tron-prebuilt-0-34-0-package-tgz tar:///home/federico/.npm/electron-prebuilt/0.34.0/package.tgz
+83 silly lockFile 2b98d6d8-electron-prebuilt-0-34-0-package /home/federico/.npm/electron-prebuilt/0.34.0/package
+84 verbose lock /home/federico/.npm/electron-prebuilt/0.34.0/package /home/federico/.npm/2b98d6d8-electron-prebuilt-0-34-0-package.lock
+85 silly lockFile 2b98d6d8-electron-prebuilt-0-34-0-package /home/federico/.npm/electron-prebuilt/0.34.0/package
+86 silly lockFile 2b98d6d8-electron-prebuilt-0-34-0-package /home/federico/.npm/electron-prebuilt/0.34.0/package
+87 verbose tar unpack /home/federico/.npm/electron-prebuilt/0.34.0/package.tgz
+88 silly lockFile 8720d3cf-electron-prebuilt-0-34-0-package tar:///home/federico/.npm/electron-prebuilt/0.34.0/package
+89 verbose lock tar:///home/federico/.npm/electron-prebuilt/0.34.0/package /home/federico/.npm/8720d3cf-electron-prebuilt-0-34-0-package.lock
+90 silly lockFile 078f9075-tron-prebuilt-0-34-0-package-tgz tar:///home/federico/.npm/electron-prebuilt/0.34.0/package.tgz
+91 verbose lock tar:///home/federico/.npm/electron-prebuilt/0.34.0/package.tgz /home/federico/.npm/078f9075-tron-prebuilt-0-34-0-package-tgz.lock
+92 silly gunzTarPerm modes [ '755', '644' ]
+93 silly gunzTarPerm extractEntry package.json
+94 silly gunzTarPerm extractEntry .npmignore
+95 silly gunzTarPerm extractEntry README.md
+96 silly gunzTarPerm extractEntry LICENSE
+97 silly gunzTarPerm extractEntry cli.js
+98 silly gunzTarPerm extractEntry index.js
+99 silly gunzTarPerm extractEntry install.js
+100 silly gunzTarPerm extractEntry .travis.yml
+101 silly gunzTarPerm extractEntry CONTRIBUTING.md
+102 silly gunzTarPerm extractEntry test/index.js
+103 silly lockFile 8720d3cf-electron-prebuilt-0-34-0-package tar:///home/federico/.npm/electron-prebuilt/0.34.0/package
+104 silly lockFile 8720d3cf-electron-prebuilt-0-34-0-package tar:///home/federico/.npm/electron-prebuilt/0.34.0/package
+105 silly lockFile 078f9075-tron-prebuilt-0-34-0-package-tgz tar:///home/federico/.npm/electron-prebuilt/0.34.0/package.tgz
+106 silly lockFile 078f9075-tron-prebuilt-0-34-0-package-tgz tar:///home/federico/.npm/electron-prebuilt/0.34.0/package.tgz
+107 verbose chmod /home/federico/.npm/electron-prebuilt/0.34.0/package.tgz 644
+108 verbose chown /home/federico/.npm/electron-prebuilt/0.34.0/package.tgz [ 1000, 1000 ]
+109 silly lockFile 9ebb936b-ilt-electron-prebuilt-0-34-0-tgz https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.34.0.tgz
+110 silly lockFile 9ebb936b-ilt-electron-prebuilt-0-34-0-tgz https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.34.0.tgz
+111 silly lockFile 242a446a-electron-prebuilt-0-34-0 electron-prebuilt@0.34.0
+112 silly lockFile 242a446a-electron-prebuilt-0-34-0 electron-prebuilt@0.34.0
+113 silly lockFile 092fe7a3-electron-prebuilt electron-prebuilt@
+114 silly lockFile 092fe7a3-electron-prebuilt electron-prebuilt@
+115 silly resolved [ { name: 'electron-prebuilt',
+115 silly resolved     version: '0.34.0',
+115 silly resolved     description: 'Install electron (formerly called atom-shell) prebuilt binaries for command-line use using npm',
+115 silly resolved     repository:
+115 silly resolved      { type: 'git',
+115 silly resolved        url: 'https://github.com/mafintosh/electron-prebuilt' },
+115 silly resolved     scripts:
+115 silly resolved      { 'cache-clean': 'rm -rf ~/.electron && rm -rf dist',
+115 silly resolved        postinstall: 'node install.js',
+115 silly resolved        pretest: 'npm run cache-clean && node install.js',
+115 silly resolved        test: 'tape test/*.js' },
+115 silly resolved     bin: { electron: 'cli.js' },
+115 silly resolved     main: 'index.js',
+115 silly resolved     dependencies: { 'extract-zip': '^1.0.3', 'electron-download': '^1.0.0' },
+115 silly resolved     devDependencies:
+115 silly resolved      { 'home-path': '^0.1.1',
+115 silly resolved        'path-exists': '^1.0.0',
+115 silly resolved        tape: '^3.0.1' },
+115 silly resolved     author: { name: 'Mathias Buus' },
+115 silly resolved     license: 'MIT',
+115 silly resolved     bugs: { url: 'https://github.com/mafintosh/electron-prebuilt/issues' },
+115 silly resolved     homepage: 'https://github.com/mafintosh/electron-prebuilt',
+115 silly resolved     readme: '# electron-prebuilt\n\n[![build status](http://img.shields.io/travis/mafintosh/electron-prebuilt.svg?style=flat)](http://travis-ci.org/mafintosh/electron-prebuilt)\n[![dat](http://img.shields.io/badge/Development%20sponsored%20by-dat-green.svg?style=flat)](http://dat-data.com/)\n\n![badge](https://nodei.co/npm/electron-prebuilt.png?downloads=true)\n\nInstall [electron](https://github.com/atom/electron) prebuilt binaries for command-line use using npm. This module helps you easily install the `electron` command for use on the command line without having to compile anything.\n\nElectron is a JavaScript runtime that bundles Node.js and Chromium. You use it similar to the `node` command on the command line for executing JavaScript programs. For more info you can read [this intro blog post](http://maxogden.com/electron-fundamentals.html) or dive into the [Electron documentation](https://github.com/atom/electron/tree/master/docs)\n\n## Installation\n\nDownload and install the latest build of electron for your OS and add it to your projects `package.json` as a `devDependency`:\n\n```\nnpm install electron-prebuilt --save-dev\n```\n\nThis is the preferred way to use electron, as it doesn\'t require users to install electron globally.\n\nYou can also use the `-g` flag (global) to symlink it into your PATH:\n\n```\nnpm install -g electron-prebuilt\n```\n\nIf that command fails with an `EACCESS` error you may have to run it again with `sudo`:\n\n```\nsudo npm install -g electron-prebuilt\n```\n\nNow you can just run `electron` to run electron:\n\n```\nelectron\n```\n\nIf you need to use an HTTP proxy you can [set these environment variables](https://github.com/request/request/tree/f0c4ec061141051988d1216c24936ad2e7d5c45d#controlling-proxy-behaviour-using-environment-variables)\n\nIf you want to change the architecture that is downloaded (e.g., `ia32` on an `x64` machine), you can use the `--arch` flag with npm install or set the `npm_config_arch` environment variable:\n```\nnpm install --arch=ia32 electron-prebuilt\n```\n\n## About\n\nWorks on Mac, Windows and Linux OSes that Electron supports (e.g. Electron [does not support Windows XP](https://github.com/atom/electron/issues/691)).\n\nThe version numbers of this module match the version number of the [offical Electron releases](https://github.com/atom/electron/releases), which do not follow [semantic versioning](http://semver.org/).\n\nThis module is automatically released whenever a new version of Electron is released thanks to [electron-prebuilt-updater](https://github.com/johnmuhl/electron-prebuilt-updater) written by [John Muhl](https://github.com/johnmuhl/).\n\n## Usage\n\nFirst you have to [write an electron application](https://github.com/atom/electron/blob/master/docs/tutorial/quick-start.md)\n\nThen you can run your app using:\n\n```\nelectron your-app/\n```\n\n## Related modules\n\n- [electron-packager](https://github.com/maxogden/electron-packager) - package and distribute your electron app in OS executables (.app, .exe etc)\n- [electron-builder](https://github.com/loopline-systems/electron-builder) - create installers for Windows and OS X. It\'s built to work together with electron-packager\n- [menubar](https://github.com/maxogden/menubar) - high level way to create menubar desktop applications with electron\n\nFind more at the [awesome-electron](https://github.com/sindresorhus/awesome-electron) list\n\n## Programmatic usage\n\nMost people use this from the command line, but if you require `electron-prebuilt` inside your node app it will return the file path to the binary.\nUse this to spawn electron from node scripts.\n\n``` js\nvar electron = require(\'electron-prebuilt\')\nvar proc = require(\'child_process\')\n\n// will something similar to print /Users/maf/.../Electron\nconsole.log(electron)\n\n// spawn electron\nvar child = proc.spawn(electron)\n```\n',
+115 silly resolved     readmeFilename: 'README.md',
+115 silly resolved     _id: 'electron-prebuilt@0.34.0',
+115 silly resolved     dist: { shasum: '5428f277aa8ed18b7f871085780378d7e44ec3b9' },
+115 silly resolved     _from: 'electron-prebuilt@',
+115 silly resolved     _resolved: 'https://registry.npmjs.org/electron-prebuilt/-/electron-prebuilt-0.34.0.tgz' } ]
+116 info install electron-prebuilt@0.34.0 into /usr/local/lib
+117 info installOne electron-prebuilt@0.34.0
+118 info /usr/local/lib/node_modules/electron-prebuilt unbuild
+119 verbose tar unpack /home/federico/.npm/electron-prebuilt/0.34.0/package.tgz
+120 silly lockFile d50635d8-b-node-modules-electron-prebuilt tar:///usr/local/lib/node_modules/electron-prebuilt
+121 verbose lock tar:///usr/local/lib/node_modules/electron-prebuilt /home/federico/.npm/d50635d8-b-node-modules-electron-prebuilt.lock
+122 silly lockFile 078f9075-tron-prebuilt-0-34-0-package-tgz tar:///home/federico/.npm/electron-prebuilt/0.34.0/package.tgz
+123 verbose lock tar:///home/federico/.npm/electron-prebuilt/0.34.0/package.tgz /home/federico/.npm/078f9075-tron-prebuilt-0-34-0-package-tgz.lock
+124 silly gunzTarPerm modes [ '755', '644' ]
+125 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+125 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+125 error   errno: 3,
+125 error   code: 'EACCES',
+125 error   path: '/usr/local/lib/node_modules',
+125 error   fstream_type: 'Directory',
+125 error   fstream_path: '/usr/local/lib/node_modules/electron-prebuilt',
+125 error   fstream_class: 'DirWriter',
+125 error   fstream_stack:
+125 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+125 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+125 error      'Object.oncomplete (fs.js:107:15)' ] }
+126 error Please try running this command again as root/Administrator.
+127 error System Linux 3.13.0-37-generic
+128 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "electron-prebuilt" "-g"
+129 error cwd /home/federico/Desktop/proyectoAnalisis
+130 error node -v v0.10.25
+131 error npm -v 1.3.10
+132 error path /usr/local/lib/node_modules
+133 error fstream_path /usr/local/lib/node_modules/electron-prebuilt
+134 error fstream_type Directory
+135 error fstream_class DirWriter
+136 error code EACCES
+137 error errno 3
+138 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+139 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+139 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+139 error fstream_stack Object.oncomplete (fs.js:107:15)
+140 verbose exit [ 3, true ]

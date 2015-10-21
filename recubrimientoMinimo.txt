@@ -1,0 +1,4 @@
+SP5
+N // tamano del conjunto S
+M // cantidad de subconjuntos de S que se encuentran en C
+// de esta linea en adelante, una lista de entero de tamano variable que se refiere a cada uno de los elementos de C

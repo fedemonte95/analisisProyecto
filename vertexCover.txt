@@ -1,0 +1,20 @@
+GT1 // tipo de problema
+10 // N cantidad de vertices (los vertices se asumen numerados de 1 hasta N )
+15  // M cantidad de arcos
+ 6 // K recubrimiento deseado, osea hasta cuantos vertices es deseado
+// Para cada arco, un par de numero indicando los arcos que se conectan
+0-1
+0-4
+0-5
+1-2
+1-6
+2-3
+2-7
+3-4
+3-8
+4-9
+5-8
+5-7
+6-9
+6-8
+7-9
